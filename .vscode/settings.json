@@ -1,0 +1,12 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "__locale": "cpp",
+        "__string": "cpp",
+        "string": "cpp",
+        "filesystem": "cpp",
+        "iosfwd": "cpp",
+        "initializer_list": "cpp",
+        "chrono": "cpp"
+    }
+}
