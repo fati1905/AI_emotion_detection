@@ -24,7 +24,7 @@ class Neurone{
     int id = 0; //L'identité du neurone
     double h = 0; //L'entrée de la fonction sigmoide
     double y = 0; // La sortie de la fonction sigmoide
-};
+}
 
 //Classe pour une couche
 class Layer{
