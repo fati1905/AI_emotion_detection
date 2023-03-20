@@ -8,6 +8,7 @@ fearful_picture = []
 disgusted_picture = []
 
 
+# Class qui représente les images
 class Picture:
     def __init__(self, cat, n):
         # Category of the image either "Angry", "Happy", "disgusted" or "fearful"
@@ -55,6 +56,7 @@ def read_all_files(path):  # The path is where all the directories of images are
         if os.path.isfile(os.path.join(dir_angry, file)):
             # Create an image
             pic = Picture("Angry", file)
+            print("file :"+str(file))
             read_image(pic, str("Données/angry_files/")+file)
             angry_picture.append(pic)
         count += 1
@@ -127,3 +129,7 @@ print("happy : "+str(len(happy_picture)))
 print("fearful : "+str(len(fearful_picture)))
 print("disgusted : "+str(len(disgusted_picture)))
 
+
+print("image 0 (angry):"+str(angry_picture[0].pixel))
+
+print("image 0 (happy):"+str(happy_picture[0].pixel))
