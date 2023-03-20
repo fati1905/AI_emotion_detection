@@ -126,3 +126,4 @@ print("angry : "+str(len(angry_picture)))
 print("happy : "+str(len(happy_picture)))
 print("fearful : "+str(len(fearful_picture)))
 print("disgusted : "+str(len(disgusted_picture)))
+
