@@ -2,3 +2,8 @@
 .DS_Store
 a.out
 .vscode/settings.json
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/AI_emotion_detection.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
