@@ -7,7 +7,9 @@
         "filesystem": "cpp",
         "iosfwd": "cpp",
         "initializer_list": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "list": "cpp",
+        "iostream": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
