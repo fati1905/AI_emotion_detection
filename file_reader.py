@@ -129,7 +129,3 @@ print("happy : "+str(len(happy_picture)))
 print("fearful : "+str(len(fearful_picture)))
 print("disgusted : "+str(len(disgusted_picture)))
 
-
-print("image 0 (angry):"+str(angry_picture[0].pixel))
-
-print("image 0 (happy):"+str(happy_picture[0].pixel))
