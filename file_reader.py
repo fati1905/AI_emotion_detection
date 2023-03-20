@@ -56,7 +56,6 @@ def read_all_files(path):  # The path is where all the directories of images are
         if os.path.isfile(os.path.join(dir_angry, file)):
             # Create an image
             pic = Picture("Angry", file)
-            print("file :"+str(file))
             read_image(pic, str("Données/angry_files/")+file)
             angry_picture.append(pic)
         count += 1
@@ -122,10 +121,4 @@ def read_all_files(path):  # The path is where all the directories of images are
 
 
 # Nous allons lire tous les fichiers dans les dossiers Données qui contient les dossiers de chaque emotions
-read_all_files("Données")
-
-print("angry : "+str(len(angry_picture)))
-print("happy : "+str(len(happy_picture)))
-print("fearful : "+str(len(fearful_picture)))
-print("disgusted : "+str(len(disgusted_picture)))
-
+#read_all_files("Données")
