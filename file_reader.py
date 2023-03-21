@@ -63,61 +63,61 @@ def read_all_files(path):  # The path is where all the directories of images are
 
     #print("Total images read :" + str(count))
 
-    print("Start happy files")
-    # ************************** Happy pictures *******************************
-    # Read the files of angry folder
-    dir_angry = path + str("/happy_files")
-
-    # Read the files of happy folder
-    files = os.listdir(dir_angry)
-    count = 0
-    for file in files:
-        if os.path.isfile(os.path.join(dir_angry, file)):
-            # Create an image
-            pic = Picture("Happy", file)
-            read_image(pic, str("Données/happy_files/") + file)
-            happy_picture.append(pic)
-        count += 1
-        #print("Just read an image")
-
-    #print("Total images read :" + str(count))
-
-    print("Start fearful files")
-    # ************************** Fearful pictures *******************************
-    # Read the files of angry folder
-    dir_angry = path + str("/fearful_files")
-
-    # Read the files of fearful folder
-    files = os.listdir(dir_angry)
-    count = 0
-    for file in files:
-        if os.path.isfile(os.path.join(dir_angry, file)):
-            # Create an image
-            pic = Picture("Fearful", file)
-            read_image(pic, str("Données/fearful_files/") + file)
-            fearful_picture.append(pic)
-        count += 1
-        #print("Just read an image")
-
-    #print("Total images read :" + str(count))
-    print("Start disgust files")
-    # ************************** Disgusted pictures *******************************
-    # Read the files of angry folder
-    dir_angry = path + str("/disgusted_files")
-
-    # Read the files of disgusted folder
-    files = os.listdir(dir_angry)
-    count = 0
-    for file in files:
-        if os.path.isfile(os.path.join(dir_angry, file)):
-            # Create an image
-            pic = Picture("Disgusted", file)
-            read_image(pic, str("Données/disgusted_files/") + file)
-            disgusted_picture.append(pic)
-        count += 1
-        #print("Just read an image")
-
-    #print("Total images read :" + str(count))
+    # print("Start happy files")
+    # # ************************** Happy pictures *******************************
+    # # Read the files of angry folder
+    # dir_angry = path + str("/happy_files")
+    #
+    # # Read the files of happy folder
+    # files = os.listdir(dir_angry)
+    # count = 0
+    # for file in files:
+    #     if os.path.isfile(os.path.join(dir_angry, file)):
+    #         # Create an image
+    #         pic = Picture("Happy", file)
+    #         read_image(pic, str("Données/happy_files/") + file)
+    #         happy_picture.append(pic)
+    #     count += 1
+    #     #print("Just read an image")
+    #
+    # #print("Total images read :" + str(count))
+    #
+    # print("Start fearful files")
+    # # ************************** Fearful pictures *******************************
+    # # Read the files of angry folder
+    # dir_angry = path + str("/fearful_files")
+    #
+    # # Read the files of fearful folder
+    # files = os.listdir(dir_angry)
+    # count = 0
+    # for file in files:
+    #     if os.path.isfile(os.path.join(dir_angry, file)):
+    #         # Create an image
+    #         pic = Picture("Fearful", file)
+    #         read_image(pic, str("Données/fearful_files/") + file)
+    #         fearful_picture.append(pic)
+    #     count += 1
+    #     #print("Just read an image")
+    #
+    # #print("Total images read :" + str(count))
+    # print("Start disgust files")
+    # # ************************** Disgusted pictures *******************************
+    # # Read the files of angry folder
+    # dir_angry = path + str("/disgusted_files")
+    #
+    # # Read the files of disgusted folder
+    # files = os.listdir(dir_angry)
+    # count = 0
+    # for file in files:
+    #     if os.path.isfile(os.path.join(dir_angry, file)):
+    #         # Create an image
+    #         pic = Picture("Disgusted", file)
+    #         read_image(pic, str("Données/disgusted_files/") + file)
+    #         disgusted_picture.append(pic)
+    #     count += 1
+    #     #print("Just read an image")
+    #
+    # #print("Total images read :" + str(count))
 
 
 # Nous allons lire tous les fichiers dans les dossiers Données qui contient les dossiers de chaque emotions
